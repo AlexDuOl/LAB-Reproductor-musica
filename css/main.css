@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 50%;
+    width: 100%;
+}
+
+fondo {
+    height: 80%;
+    width: 80%;
+}
+
+h1 {
+    background-color: white;
+    color: rgb(1, 1, 51);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+iframe {
+    height: 80%;
+    width: 80%;
+}
