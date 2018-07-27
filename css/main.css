@@ -1,5 +1,20 @@
+/* AUDIO*/
+
+html,
 body {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    width: 4em;
 }
 
 .container {
@@ -7,20 +22,18 @@ body {
     width: 100%;
 }
 
-fondo {
-    height: 80%;
-    width: 80%;
-}
-
 h1 {
-    background-color: white;
-    color: rgb(1, 1, 51);
+    background-color: black;
+    border-radius: 5px;
+    color: white;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 3em;
     text-align: center;
 }
 
-iframe {
-    height: 80%;
-    width: 80%;
+
+/* VIDEO*/
+
+.video {
+    height: 100%;
 }

@@ -10,24 +10,28 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 
-    <title>Reprductor de Musica</title>
+    <title>Reprductores</title>
 
 </head>
 
 <body>
-    <h1>REPRODUCTOR DE MUSICA</h1>
-
-    <div class="row container">
-        <img class="col s6 offset-s3 cover" src="css/assets/images/paisaje-montana-2.jpg" alt="">
-
-        <div class="row player">
-            <iframe class="col s6 offset-s3" src="https://clyp.it/gio31nme/widget" frameborder="0"></iframe>
+    <div class="container">
+        <div class="row">
+            <h1 class="col s6">REPRODUCTOR DE MUSICA</h1>
+            <h1 class="col s6">REPRODUCTOR DE VIDEO</h1>
         </div>
         <div class="row">
-            <audio class="col s6 offset-s3" src="css/assets/KBID121017.mp3" controls>               
-                <p>Tu navegador no soporta este audio</p>
-            </audio>
+            <img class="col s6 fondo" src="css/assets/images/ImagineDragonsThunder.jpg" alt="">
+            <video class="col s6 video" src="css/assets/video/KoolulamBelieverImagineDragons121017.mp4" poster="css/assets/images/believerblog-versie2.png" controls></video>
         </div>
+        <div class="row">
+            <audio class="col s6" src="css/assets/audio/ImagineDragonsThunder.mp3" controls></audio>
+            <div class="col s6 controls">
+                <button type="button" class="col s2 offset-s1 play">Play</button>
+                <button type="button" class="col s2 offset-s1 pause">Pause</button>
+            </div>
+        </div>
+
     </div>
     <script src="js/app.js "></script>
 </body>
